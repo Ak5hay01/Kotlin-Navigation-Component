@@ -14,7 +14,7 @@ Link: https://developer.android.com/guide/navigation/navigation-getting-started
 
 Here as you can see I have added a textview with text and this is a fragment added in fragment container in activity_main.xml. If you click on the text you will be navigated to next fragment. I have added 2 scenarios for it 
 
-1. Regular Navigation
+1. Regular Navigation without safe args
 2. Navigation using safe args(sending some data from one fragment to another)
 
 # Second Fragment without safe args

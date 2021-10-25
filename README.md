@@ -28,8 +28,11 @@ Here as you can see we Default text can be seen and if you click on the textview
 
 Here as you can see whatever text we send from first fragments using the safe args is sent to send fragment and its set to textview. you can see the logic for sending safe args in first fragment textview click. 
 
+```
  textView.setOnClickListener {
      //Sending data from 1st to 2nd fragment.
       val action = FirstFragmentDirections.navigateToSecondScreen("Second(2nd) Fragment") // even if we dont pass the string the app will work and default value will be shown
       Navigation.findNavController(view).navigate(action)
   }
+```
+

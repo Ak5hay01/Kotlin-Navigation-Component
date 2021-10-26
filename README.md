@@ -7,7 +7,13 @@ Navigation refers to the interactions that allow users to navigate across, into,
 Link: https://developer.android.com/guide/navigation and <br/>
 Link: https://developer.android.com/guide/navigation/navigation-getting-started
 
+Dependency used
 
+```
+   implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+   implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+   
+```
 
 # Home Screen 
 ![alt text](/screenshots/home.PNG)
